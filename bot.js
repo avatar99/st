@@ -24,19 +24,19 @@ client.on('ready', () => {
           if (!dreamv2.includes(message.author.id)) return;
           if(message.content.startsWith(prefix + "sg")){
             client.user.setActivity(dream);
-            message.channel.send(`✔️ **Done Playing Now __${dream}__**`)
+            message.channel.send(`✔️ **Done Playing Now __${Avatar}__**`)
         }
           if (message.content.startsWith(prefix + 'sw')) {
       client.user.setActivity(dream, {type:'WATCHING'});
-          message.channel.send(`✔️  **Done Watching Now __${dream}__ **`)
+          message.channel.send(`✔️  **Done Watching Now __${Avatar}__ **`)
       } else
       if (message.content.startsWith(prefix + 'sl')) {
       client.user.setActivity(dream , {type:'LISTENING'});
-          message.channel.send(`✔️ **Done Listening Now __${dream}__** `)
+          message.channel.send(`✔️ **Done Listening Now __${Avatar}__** `)
       } else
       if (message.content.startsWith(prefix + 'st')) {
-    client.user.setGame(dream, "https://www.twitch.tv/dream");
-         message.channel.send(`✔️ **Done Stream Now  __${dream}__ **`)
+    client.user.setGame(dream, "https://www.twitch.tv/Avatar");
+         message.channel.send(`✔️ **Done Stream Now  __${Avatar}__ **`)
       }
  
     });
