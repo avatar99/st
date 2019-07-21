@@ -4,14 +4,14 @@ const client = new Discord.Client();
 var prefix = ".";
 
 client.on('ready', () => {
-	console.log('Dream iS Here');
+	console.log('Avatar iS Here');
 });
 
 client.on('ready', () => {
    console.log(`----------------`);
       console.log(`b 1.0`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : DREAM ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : Avatar ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
 });
